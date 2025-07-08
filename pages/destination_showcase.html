@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination Showcase - FMC Holidays Explorer</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Explore immersive destination experiences across Asia's most captivating locations with FMC Holidays - from cultural immersion to luxury retreats." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Ffmcholida3901back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.5"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-subtle sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage.html">
+                        <svg class="h-10 w-auto" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="25" fill="#1e3a8a"/>
+                            <path d="M20 20 L40 30 L20 40 Z" fill="#87CEEB"/>
+                            <text x="65" y="25" font-family="Montserrat" font-size="18" font-weight="700" fill="#1e3a8a">FMC</text>
+                            <text x="65" y="42" font-family="Montserrat" font-size="12" font-weight="400" fill="#6b7280">HOLIDAYS</text>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage.html" class="text-text-secondary hover:text-primary font-montserrat px-3 py-2 rounded-md text-sm transition-smooth">Home</a>
+                        <a href="destination_showcase.html" class="text-primary font-montserrat font-semibold px-3 py-2 rounded-md text-sm">Destinations</a>
+                        <a href="#journey-architect" class="text-text-secondary hover:text-primary font-montserrat px-3 py-2 rounded-md text-sm transition-smooth">Plan Journey</a>
+                        <a href="#experiences" class="text-text-secondary hover:text-primary font-montserrat px-3 py-2 rounded-md text-sm transition-smooth">Experiences</a>
+                        <a href="#about" class="text-text-secondary hover:text-primary font-montserrat px-3 py-2 rounded-md text-sm transition-smooth">About</a>
+                    </div>
+                </div>
+                
+                <!-- Contact Button -->
+                <div class="hidden md:block">
+                    <button class="btn-primary">Contact Expert</button>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-text-secondary hover:text-primary p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Destination Hero Section -->
+    <section id="destination-hero" class="relative min-h-screen overflow-hidden">
+        <!-- Background Video/Image -->
+        <div class="absolute inset-0">
+            <img src="https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Thailand floating markets and temples" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative z-10 flex items-center justify-center min-h-screen">
+            <div class="text-center text-white max-w-4xl mx-auto px-4">
+                <h1 class="text-5xl md:text-7xl font-montserrat font-bold mb-6 leading-tight">
+                    Thailand
+                </h1>
+                <p class="text-2xl md:text-3xl mb-8 text-secondary font-crimson">
+                    Where Ancient Traditions Meet Modern Luxury
+                </p>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto mb-8">
+                    Discover the Land of Smiles through temple ceremonies at dawn, floating market adventures, and luxury beach retreats that redefine paradise
+                </p>
+                
+                <!-- Quick Stats -->
+                <div class="flex flex-wrap justify-center gap-6 mb-8">
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary">12</div>
+                        <div class="text-sm text-gray-300">Unique Experiences</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary">7-14</div>
+                        <div class="text-sm text-gray-300">Days Recommended</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary">Nov-Mar</div>
+                        <div class="text-sm text-gray-300">Best Season</div>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="btn-primary text-lg px-8 py-4">
+                        <svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 003 16.382V5.618a1 1 0 001.447-.894L9 7m0 13l6-3m-6 3V11m0-5.5v-1a1 1 0 013 0v1m0 0V11m0-5.5a1 1 0 013 0v3"/>
+                        </svg>
+                        Build My Thailand Journey
+                    </button>
+                    <button class="btn-secondary text-lg px-8 py-4">
+                        <svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                        Watch Destination Video
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-2-2m0 0l-2 2m2-2l2 2m2-2l2 2"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Sticky Section Navigation -->
+    <nav class="sticky top-16 bg-white shadow-subtle z-40 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex overflow-x-auto space-x-8 py-4">
+                <a href="#interactive-map" class="whitespace-nowrap text-sm font-montserrat font-semibold text-primary border-b-2 border-primary pb-2">Map & Locations</a>
+                <a href="#experiences" class="whitespace-nowrap text-sm font-montserrat text-text-secondary hover:text-primary transition-smooth pb-2">Experiences</a>
+                <a href="#best-time" class="whitespace-nowrap text-sm font-montserrat text-text-secondary hover:text-primary transition-smooth pb-2">Best Time to Visit</a>
+                <a href="#insider-guide" class="whitespace-nowrap text-sm font-montserrat text-text-secondary hover:text-primary transition-smooth pb-2">Insider's Guide</a>
+                <a href="#traveler-stories" class="whitespace-nowrap text-sm font-montserrat text-text-secondary hover:text-primary transition-smooth pb-2">Traveler Stories</a>
+                <a href="#practical-info" class="whitespace-nowrap text-sm font-montserrat text-text-secondary hover:text-primary transition-smooth pb-2">Practical Info</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Interactive Map Section -->
+    <section id="interactive-map" class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-montserrat font-bold text-primary mb-4">Explore Thailand's Hidden Gems</h2>
+                <p class="text-xl text-text-secondary max-w-2xl mx-auto">
+                    Discover key locations and secret spots curated by our local experts
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Interactive Map -->
+                <div class="lg:col-span-2">
+                    <div class="bg-white rounded-lg shadow-subtle p-6 h-96">
+                        <div class="relative w-full h-full bg-gray-100 rounded-lg overflow-hidden">
+                            <img src="https://images.pixabay.com/photo/2017/09/26/13/21/pomegranate-2789614_1280.jpg" alt="Thailand interactive map" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            
+                            <!-- Map Markers -->
+                            <div class="absolute top-1/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+                                <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center cursor-pointer hover:scale-110 transition-smooth" title="Bangkok">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="absolute top-1/2 right-1/4 transform -translate-x-1/2 -translate-y-1/2">
+                                <div class="bg-secondary text-white rounded-full w-8 h-8 flex items-center justify-center cursor-pointer hover:scale-110 transition-smooth" title="Phuket">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center cursor-pointer hover:scale-110 transition-smooth" title="Chiang Mai">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Location Details -->
+                <div class="space-y-4">
+                    <div class="bg-white rounded-lg shadow-subtle p-6 hover:shadow-lg transition-smooth cursor-pointer">
+                        <div class="flex items-center mb-3">
+                            <div class="w-4 h-4 bg-primary rounded-full mr-3"></div>
+                            <h3 class="font-montserrat font-semibold text-lg">Bangkok</h3>
+                        </div>
+                        <p class="text-text-secondary text-sm mb-2">Cultural Capital</p>
+                        <p class="text-sm">Grand Palace, floating markets, street food paradise, and vibrant nightlife</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-subtle p-6 hover:shadow-lg transition-smooth cursor-pointer">
+                        <div class="flex items-center mb-3">
+                            <div class="w-4 h-4 bg-secondary rounded-full mr-3"></div>
+                            <h3 class="font-montserrat font-semibold text-lg">Phuket</h3>
+                        </div>
+                        <p class="text-text-secondary text-sm mb-2">Beach Paradise</p>
+                        <p class="text-sm">Pristine beaches, luxury resorts, island hopping, and sunset cruises</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-subtle p-6 hover:shadow-lg transition-smooth cursor-pointer">
+                        <div class="flex items-center mb-3">
+                            <div class="w-4 h-4 bg-accent rounded-full mr-3"></div>
+                            <h3 class="font-montserrat font-semibold text-lg">Chiang Mai</h3>
+                        </div>
+                        <p class="text-text-secondary text-sm mb-2">Mountain Retreat</p>
+                        <p class="text-sm">Ancient temples, hill tribes, elephant sanctuaries, and cooking classes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-montserrat font-bold text-primary mb-4">Curated Thailand Experiences</h2>
+                <p class="text-xl text-text-secondary max-w-2xl mx-auto">
+                    From cultural immersion to luxury retreats, discover experiences that transform perspectives
+                </p>
+            </div>
+            
+            <!-- Experience Categories -->
+            <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                <!-- Cultural Immersion -->
+                <div class="card-elevated p-8 text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2 2h-12a2 2 0 00-2 2v16m0-16c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0 16c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-16c1.657 0 3 .895 3 2s-1.343 2-3 2-3 .895-3 2 1.343 2 3 2m0 16c1.657 0 3 .895 3 2s-1.343 2-3 2-3 .895-3 2 1.343 2 3 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-montserrat font-bold text-primary mb-4">Cultural Immersion</h3>
+                    <p class="text-text-secondary mb-6">Connect with Thailand's rich heritage through authentic experiences</p>
+                    <div class="text-left space-y-3">
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 000 1.414l-8 8a1 1 0 001.414 0l4-4a1 1 0 001.414-1.414L8 12.586l7.293-7.293a1 1 0 001.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm">Temple ceremonies at dawn</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 000 1.414l-8 8a1 1 0 001.414 0l4-4a1 1 0 001.414-1.414L8 12.586l7.293-7.293a1 1 0 001.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm">Traditional cooking classes</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-4 h-4 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 000 1.414l-8 8a1 1 0 001.414 0l4-4a1 1 0 001.414-1.414L8 12.586l7.293-7.293a1 1 0 001.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm">Local artisan workshops</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Adventure Escapes -->
+                <div class="card-elevated p-8 text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            </svg></div></div></div></div></section></body></html>
